@@ -5,9 +5,12 @@
   <style name="Selection" foreground="#e6e5e2" background="#49483e"/>
   <style name="LineNumber" foreground="#a0a19c" background="#272822"/>
   <style name="SearchResult" foreground="#ffffff" background="#2572b8"/>
+  <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
+  <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
   <style name="SearchScope" foreground="#000000" background="#e2efff"/>
   <style name="Parentheses" foreground="#ff0000" background="#515d6a"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
+  <style name="AutoComplete" foreground="#000080" background="#c0c0ff"/>
   <style name="CurrentLine" background="#3e3d32"/>
   <style name="CurrentLineNumber" foreground="#fd971f" background="#0f0e0d"/>
   <style name="Occurrences" foreground="#000000" background="#b4b4b4"/>
@@ -16,7 +19,10 @@
   <style name="Number" foreground="#ae81ff"/>
   <style name="String" foreground="#e6db74"/>
   <style name="Type" foreground="#66d9ef"/>
+  <style name="Namespace" foreground="#66d9ef"/>
   <style name="Local" foreground="#e48d27"/>
+  <style name="Parameter" foreground="#2985c7"/>
+  <style name="Global" foreground="#ce5c00"/>
   <style name="Field" foreground="#5f87af"/>
   <style name="Static" foreground="#7aac18" italic="true"/>
   <style name="VirtualMethod" foreground="#a6e22e"/>
@@ -24,6 +30,8 @@
   <style name="Keyword" foreground="#f92672"/>
   <style name="PrimitiveType" foreground="#66d9ef" italic="true"/>
   <style name="Operator" foreground="#e6e5e2"/>
+  <style name="Overloaded Operator" foreground="#00677c"/>
+  <style name="Punctuation" foreground="#e6e5e2" background="#1e201a"/>
   <style name="Preprocessor" foreground="#d7ffaf"/>
   <style name="Label" foreground="#800000"/>
   <style name="Comment" foreground="#808080"/>
@@ -41,7 +49,7 @@
   <style name="JsGlobalVar" foreground="#0055af" italic="true"/>
   <style name="QmlStateName" foreground="#66d9ef" italic="true"/>
   <style name="Binding" foreground="#c10000"/>
-  <style name="DisabledCode" foreground="#000000" background="#1e201a"/>
+  <style name="DisabledCode" foreground="#a0a19c" background="#1e201a"/>
   <style name="AddedLine" foreground="#3875d7"/>
   <style name="RemovedLine" foreground="#ff0000"/>
   <style name="DiffFile" foreground="#a6e22e"/>
@@ -53,8 +61,17 @@
   <style name="DiffDestLine" foreground="#00e100" background="#272822"/>
   <style name="DiffDestChar" foreground="#00ff00" background="#484739"/>
   <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="LogAuthorName" foreground="#007af4"/>
+  <style name="LogCommitDate" foreground="#006600"/>
+  <style name="LogCommitHash" foreground="#ff0000"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
+  <style name="Declaration" foreground="#a6e22e" background="#1e201a" bold="true"/>
+  <style name="FunctionDefinition" foreground="#e6e5e2" background="#1e201a"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
 </style-scheme>
